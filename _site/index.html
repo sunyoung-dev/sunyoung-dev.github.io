@@ -190,6 +190,58 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 postlist-container">
                 
 <div class="post-preview">
+    <a href="/2019/08/19/java-g1gc-part2/">
+        <h2 class="post-title">
+            Understanding Java G1GC - Part2
+        </h2>
+        
+        <h3 class="post-subtitle">
+            G1GC 로그와 사이클
+        </h3>
+        
+        <div class="post-content-preview">
+            
+                G1GC
+
+Time based : -XX:MaxGCPauseMillis=200 옵션을 통해 Max Pause Time을 설정할 수 있다.
+
+Data Structure
+
+Collections Sets (CS) : Collection의 대상이 되는 region의 목록이다. Collections set 단위로 GC가 수행된다. Collection set에는...
+            
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by sunyoung.dev on August 19, 2019
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2019/08/18/java-g1gc-part1/">
+        <h2 class="post-title">
+            Understanding Java G1GC - Part1
+        </h2>
+        
+        <h3 class="post-subtitle">
+            G1GC의 개념과 용어
+        </h3>
+        
+        <div class="post-content-preview">
+            
+                Heap 메모리 구조
+
+이전의 GC와는 다르게 Heap 영역을 (young, old) Generation 으로 분할하지 않는다. Heap 전체를 일정한 크기로 쪼개서 각 조각별로 메모리를 관리한다. 이때 쪼개진 메모리 조각을 region이라고 부른다.  region의 크기는 작게는 1MB 부터 32MB 까지 설정된다. 보통 Heap이 약 2000개로 ...
+            
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by sunyoung.dev on August 18, 2019
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
     <a href="/2019/04/27/call-by-value/">
         <h2 class="post-title">
             Java의 매개변수 전달방식
@@ -241,8 +293,13 @@ primitive type의 매개변수
         
         
         
+        </a>
         
         
+                <a data-sort="0000" 
+                    href="/archive/?tag=%EC%9E%90%EB%B0%94"
+                    title="자바"
+                    rel="3">자바
     </div>
 </section>
 
